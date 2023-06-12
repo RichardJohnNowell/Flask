@@ -3,7 +3,7 @@
 
     <h2>{{ page_title }}</h2>
     <p>
-        The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
+        The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorins interest in
 		recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when
 		Smaug came and took it.) Remembering that he had once known an adventurous Hobbit on his travels in the Shire,
 		Gandalf decided to add Bilbo to their company because he knew that stealth and cunning were preferable to force.
