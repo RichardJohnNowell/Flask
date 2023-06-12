@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {{ company[1]["name"] }}
-
-
     <h2>{{ page_title }}</h2>
     <p>
         The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
@@ -22,9 +19,8 @@
                 <h3>{{ member.name }}</h3>
                 <p>{{ member.description }}</p>
             </div>
-            <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
             <div class="col-md-5">
-                <img src="https://vignette.wikia.nocookie.net/lotr/images/3/3f/ThorinBIG.jpg" alt="thorin_big">
+                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
             </div>
         </div>
 
@@ -32,6 +28,4 @@
 
     {% endfor %}
 
-
 {% endblock %}
-
